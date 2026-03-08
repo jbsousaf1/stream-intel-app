@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+android/app/build/
+android/build/
+ios/build/
+
+# Metro bundler cache
+.metro-health-check*
+.metro-bundler/
+
+# Expo / RN generated
+.expo/
+dist/
+web-build/
+
+# Android key
+*.keystore
+!debug.keystore
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+*.iml
+*.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
